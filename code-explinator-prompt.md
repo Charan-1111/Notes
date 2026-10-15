@@ -17,3 +17,8 @@ What are the similar problems to this
 What is the mental model we can use
 
 How we should achieve the correct pattern
+
+
+
+
+
