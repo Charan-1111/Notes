@@ -146,7 +146,3 @@ All jobs processed
 5. **Use job IDs to match results.** Worker assignment and result order can vary between runs. `JobID` tells the caller which input produced each result.
 
 In a backend service, size the pool around the resource it protects. Also decide what to do when the queue is full: wait, stop waiting when the request is cancelled, or reject the submission. A bounded queue limits waiting work in the channel; that decision determines how overload reaches the caller.
-
-
-
-and
