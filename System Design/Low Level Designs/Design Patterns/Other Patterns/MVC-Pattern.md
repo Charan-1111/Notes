@@ -148,3 +148,6 @@ User: Bob, Age: 30
 4. **Keep rendering explicit.** `main()` calls `Render()` after each attempt. A successful edit displays the new profile; a rejected edit displays the previous one. No notification mechanism is needed for this flow.
 
 All three components are in one Go package for clarity. MVC is about who owns each responsibility; it does not require three separate packages.
+
+
+and
