@@ -120,3 +120,7 @@ All jobs processed
 5. **Close the channel and drain it.** `defer close(jobs)` runs when the producer returns after sending all five jobs. The consumer’s `range` continues until the channel is both closed and empty.
 
 6. **Know what order is guaranteed.** With one producer sending `1` through `5` and one consumer processing one job at a time, the `Finished job` lines are always in that order. The producer and consumer logs can interleave differently. `All jobs processed` prints last because `consume()` has returned.
+
+
+
+what needs to be done
