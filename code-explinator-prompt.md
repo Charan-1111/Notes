@@ -23,7 +23,7 @@ What is the mental model we can use
 
 How we should achieve the correct pattern
 
-
+what could be the optimal approach
 
 
 
